@@ -1,41 +1,41 @@
-<!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html>
 <head>
     <title></title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="{$Think.const.CSS_URL}/data.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo (CSS_URL); ?>/data.css">
     <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.4.4/jquery.js"></script>
-    <script type="text/javascript" src="{$Think.const.JS_URL}/slimbox2.js"></script>
-    <link rel="stylesheet" href="{$Think.const.CSS_URL}/slimbox2.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="<?php echo (JS_URL); ?>/slimbox2.js"></script>
+    <link rel="stylesheet" href="<?php echo (CSS_URL); ?>/slimbox2.css" type="text/css" media="screen" />
     <script type = "text/javascript" src = "http://echarts.baidu.com/build/dist/echarts.js"></script>
 </head>
 <body>
     <div id="wap">  
     </div>
     <div id="login_page_father">
-        <img src="{$Think.const.IMG_URL}/login_bg.png">
+        <img src="<?php echo (IMG_URL); ?>/login_bg.png">
         <a id="close" href=""></a>
         <div id="login_content">
-            <img id="login_logo" src="{$Think.const.IMG_URL}/new.png">
+            <img id="login_logo" src="<?php echo (IMG_URL); ?>/new.png">
             <form action="" method="post">
                 <div id="user_name_d">
-                    <img class="l" src="{$Think.const.IMG_URL}/login_img.png">
+                    <img class="l" src="<?php echo (IMG_URL); ?>/login_img.png">
                     <input id="user_name" type="text">
                 </div>
                 <div id="password_d">
-                    <img class="l" src="{$Think.const.IMG_URL}/pass_img.png">
+                    <img class="l" src="<?php echo (IMG_URL); ?>/pass_img.png">
                     <input id="password" type="password">
                 </div>
                 <div id="phone_d">
-                    <img style="float:left;margin:10px 6px 0 0;" src="{$Think.const.IMG_URL}/phone.png">
+                    <img style="float:left;margin:10px 6px 0 0;" src="<?php echo (IMG_URL); ?>/phone.png">
                     <input id="phone" type="text">
                 </div>
                 <div id="qq_d">
-                    <img style="float:left;margin:10px 6px 0 0;" src="{$Think.const.IMG_URL}/qq.png">
+                    <img style="float:left;margin:10px 6px 0 0;" src="<?php echo (IMG_URL); ?>/qq.png">
                     <input id="qq" type="text">
                 </div>
                 <div id="behavior_d">
-                    <img style="float:left;" src="{$Think.const.IMG_URL}/behavior.png">
+                    <img style="float:left;" src="<?php echo (IMG_URL); ?>/behavior.png">
                     <div id="post_behavior">
                         <a href=""></a>
                         <a href=""></a>
@@ -65,8 +65,8 @@
             <div class="header_container">
                 <ul class="nav">
                     <li class="cqupt">
-                        <img src="{$Think.const.IMG_URL}/cqupt.png">
-                        <img src="{$Think.const.IMG_URL}/cqupt_f.png">
+                        <img src="<?php echo (IMG_URL); ?>/cqupt.png">
+                        <img src="<?php echo (IMG_URL); ?>/cqupt_f.png">
                     </li>
                     <li class="index">
                         <a href="index.html">首页</a>
@@ -87,7 +87,7 @@
                         <a href="">大声HI</a>
                     </li>
                     <li class="last">
-                        <a href="http://hongyan.cqupt.edu.cn/aboutus/">关于我们</a>
+                        <a href="">关于我们</a>
                     </li>
                     <li id="login1">
                         <a>新生登录</a>
@@ -99,8 +99,8 @@
             <div class="header_container">
                 <ul class="nav">
                     <li class="cqupt">
-                        <img src="{$Think.const.IMG_URL}/cqupt.png">
-                        <img src="{$Think.const.IMG_URL}/cqupt_f.png">
+                        <img src="<?php echo (IMG_URL); ?>/cqupt.png">
+                        <img src="<?php echo (IMG_URL); ?>/cqupt_f.png">
                     </li>
                     <li class="index">
                         <a href="index.html">首页</a>
@@ -121,7 +121,7 @@
                         <a href="">大声HI</a>
                     </li>
                     <li class="last">
-                        <a href="http://hongyan.cqupt.edu.cn/aboutus/">关于我们</a>
+                        <a href="">关于我们</a>
                     </li>
                     <li id="login2">
                         <a>新生登录</a>
@@ -131,27 +131,27 @@
         </div>
     </div>
     <div class="timer">
-        <img src="{$Think.const.IMG_URL}/maptimerbg.png">
+        <img src="<?php echo (IMG_URL); ?>/maptimerbg.png">
         <div class="timer_container">
-            <img id="cloud01" class="cloud01" src="{$Think.const.IMG_URL}/cloud01.png">
-            <img id="cloud02" class="cloud02" src="{$Think.const.IMG_URL}/cloud03.png">
-            <img id="cloud03" class="cloud03" src="{$Think.const.IMG_URL}/cloud04.png">
-            <img id="cloud04" class="cloud04" src="{$Think.const.IMG_URL}/cloud05.png">
+            <img id="cloud01" class="cloud01" src="<?php echo (IMG_URL); ?>/cloud01.png">
+            <img id="cloud02" class="cloud02" src="<?php echo (IMG_URL); ?>/cloud03.png">
+            <img id="cloud03" class="cloud03" src="<?php echo (IMG_URL); ?>/cloud04.png">
+            <img id="cloud04" class="cloud04" src="<?php echo (IMG_URL); ?>/cloud05.png">
             <div class="logo"></div>
-            <img class="car" src="{$Think.const.IMG_URL}/car.png">
-            <img src="{$Think.const.IMG_URL}/hotball.png"class="hotball">
-            <img class="line"src="{$Think.const.IMG_URL}/map_line.png">
+            <img class="car" src="<?php echo (IMG_URL); ?>/car.png">
+            <img src="<?php echo (IMG_URL); ?>/hotball.png"class="hotball">
+            <img class="line"src="<?php echo (IMG_URL); ?>/map_line.png">
         </div>
     </div>
     <div class="container">
-        <img src="{$Think.const.IMG_URL}/mapground.png">
+        <img src="<?php echo (IMG_URL); ?>/mapground.png">
         <div class="container_content">
-            <img class="line_right01" src="{$Think.const.IMG_URL}/line_right01.png">
+            <img class="line_right01" src="<?php echo (IMG_URL); ?>/line_right01.png">
             <div class="mapwrapper">
                 <a id = "btu_2D">查询信息</a>
                 <a class="active" id = "btu_3D">数据展示</a>
-                <img src="{$Think.const.IMG_URL}/datatitle.png" alt="" class="maptitle">
-                <img src="{$Think.const.IMG_URL}/mapbg.png" class= "mapbg">
+                <img src="<?php echo (IMG_URL); ?>/datatitle.png" alt="" class="maptitle">
+                <img src="<?php echo (IMG_URL); ?>/mapbg.png" class= "mapbg">
                 <div class = "mapstatic">
                     <div id="D2map">
                         <div class="page_top">
@@ -165,41 +165,35 @@
                         <div class="page_mid_big">
                                <div id="friend">
                                    <ul class="page_mid_mid_ul">
-                                        <volist name="roomie" id="room">
-                                            <li >
-                                                <p>{$room.stu_sch}&nbsp;&nbsp;{$room.stu_major}&nbsp;&nbsp;{$room.stu_name}&nbsp;&nbsp;{$room.stu_gender}&nbsp;&nbsp;{$room.stu_address}&nbsp;&nbsp;{$room.stu_phone}&nbsp;&nbsp;{$room.stu_qq}<br/>
+                                        <?php if(is_array($roomie)): $i = 0; $__LIST__ = $roomie;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$room): $mod = ($i % 2 );++$i;?><li >
+                                                <p><?php echo ($room["stu_sch"]); ?>&nbsp;&nbsp;<?php echo ($room["stu_major"]); ?>&nbsp;&nbsp;<?php echo ($room["stu_name"]); ?>&nbsp;&nbsp;<?php echo ($room["stu_gender"]); ?>&nbsp;&nbsp;<?php echo ($room["stu_address"]); ?>&nbsp;&nbsp;<?php echo ($room["stu_phone"]); ?>&nbsp;&nbsp;<?php echo ($room["stu_qq"]); ?><br/>
                                                 </p>
-                                            </li>
-                                        </volist>
+                                            </li><?php endforeach; endif; else: echo "" ;endif; ?>
                                     </ul>
                                </div>
                                <div id="room">
                                    <ul class="page_mid_mid_ul">
-                                        <volist name="classmate" id="class">
-                                            <li >
-                                                <p>{$class.stu_sch}&nbsp;&nbsp;{$class.stu_major}&nbsp;&nbsp;{$class.stu_name}&nbsp;&nbsp;{$class.stu_gender}&nbsp;&nbsp;{$class.stu_address}&nbsp;&nbsp;{$class.stu_phone}&nbsp;&nbsp;{$class.stu_qq}<br/>
+                                        <?php if(is_array($classmate)): $i = 0; $__LIST__ = $classmate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$class): $mod = ($i % 2 );++$i;?><li >
+                                                <p><?php echo ($class["stu_sch"]); ?>&nbsp;&nbsp;<?php echo ($class["stu_major"]); ?>&nbsp;&nbsp;<?php echo ($class["stu_name"]); ?>&nbsp;&nbsp;<?php echo ($class["stu_gender"]); ?>&nbsp;&nbsp;<?php echo ($class["stu_address"]); ?>&nbsp;&nbsp;<?php echo ($class["stu_phone"]); ?>&nbsp;&nbsp;<?php echo ($class["stu_qq"]); ?><br/>
                                                 </p>
-                                            </li>
-                                        </volist>
+                                            </li><?php endforeach; endif; else: echo "" ;endif; ?>
                                     </ul>
                                </div>
                                <div id="teacher">
                                 <ul class="page_img_ul" >
-                                    <volist name="teacher" id="tch">
-                                        <li class="page_img" style="margin-top:67px;">
-                                            <a id="person1" href="{$Think.const.IMG_URL}/teacher/{$tch.tch_sch}（{$tch.tch_name}）.jpg" rel="lightbox" title="{$tch.tch_sch}-{$tch.tch_name}"></a>
-                                            <p>{$tch.tch_sch}-{$tch.tch_name}</p>
-                                        </li>
-                                    </volist>
+                                    <?php if(is_array($teacher)): $i = 0; $__LIST__ = $teacher;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$tch): $mod = ($i % 2 );++$i;?><li class="page_img" style="margin-top:67px;">
+                                            <a id="person1" href="<?php echo (IMG_URL); ?>/teacher/<?php echo ($tch["tch_sch"]); ?>（<?php echo ($tch["tch_name"]); ?>）.jpg" rel="lightbox" title="<?php echo ($tch["tch_sch"]); ?>-<?php echo ($tch["tch_name"]); ?>"></a>
+                                            <p><?php echo ($tch["tch_sch"]); ?>-<?php echo ($tch["tch_name"]); ?></p>
+                                        </li><?php endforeach; endif; else: echo "" ;endif; ?>
                                 </ul>
                                </div>
                                <div id="interest">
                                    <ul class="page_mid_mid_ul">
                                         <li>    
                                             <p>你的爱好为:
-                                                    {$hobby['hobby_one']}&nbsp;&nbsp;
-                                                    {$hobby['hobby_two']}&nbsp;&nbsp;
-                                                    {$hobby['hobby_three']}&nbsp;&nbsp;
+                                                    <?php echo ($hobby['hobby_one']); ?>&nbsp;&nbsp;
+                                                    <?php echo ($hobby['hobby_two']); ?>&nbsp;&nbsp;
+                                                    <?php echo ($hobby['hobby_three']); ?>&nbsp;&nbsp;
                                             </p>
                                         </li>
                                         <li>
@@ -207,24 +201,20 @@
                                                 这些人与你有相同爱好:
                                             </p>
                                         </li>
-                                        <empty name="friend_info">
-                                            <li>
+                                        <?php if(empty($friend_info)): ?><li>
                                                 <p>
-                                                    {$empty}
+                                                    <?php echo ($empty); ?>
                                                 </p>
                                             </li>
-                                        <else /> 
+                                        <?php else: ?> 
                                              <li >
                                                 <p>学院&nbsp;&nbsp;专业&nbsp;&nbsp;名字&nbsp;&nbsp;性别&nbsp;&nbsp;籍贯&nbsp;&nbsp;电话&nbsp;&nbsp;QQ<br/>
                                                 </p>
                                             </li>
-                                            <volist name="friend_info" id="friend">
-                                                <li >
-                                                    <p>{$friend.stu_sch}&nbsp;&nbsp;{$friend.stu_major}&nbsp;&nbsp;{$friend.stu_name}&nbsp;&nbsp;{$friend.stu_gender}&nbsp;&nbsp;{$friend.stu_address}&nbsp;&nbsp;{$friend.stu_phone}&nbsp;&nbsp;{$friend.stu_qq}<br/>
+                                            <?php if(is_array($friend_info)): $i = 0; $__LIST__ = $friend_info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$friend): $mod = ($i % 2 );++$i;?><li >
+                                                    <p><?php echo ($friend["stu_sch"]); ?>&nbsp;&nbsp;<?php echo ($friend["stu_major"]); ?>&nbsp;&nbsp;<?php echo ($friend["stu_name"]); ?>&nbsp;&nbsp;<?php echo ($friend["stu_gender"]); ?>&nbsp;&nbsp;<?php echo ($friend["stu_address"]); ?>&nbsp;&nbsp;<?php echo ($friend["stu_phone"]); ?>&nbsp;&nbsp;<?php echo ($friend["stu_qq"]); ?><br/>
                                                     </p>
-                                                </li>
-                                            </volist>
-                                        </empty> 
+                                                </li><?php endforeach; endif; else: echo "" ;endif; endif; ?> 
                                     </ul>
                                </div>  
                        </div>
@@ -267,7 +257,7 @@
                 </div>
             </div>
         </div> 
-        <img src="{$Think.const.IMG_URL}/grass.png" class = "grass">
+        <img src="<?php echo (IMG_URL); ?>/grass.png" class = "grass">
     </div>
 </div>
 <a id="go_top" href="#"></a>
@@ -300,12 +290,12 @@
         </p>
     </div>
     <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-    <script src="{$Think.const.JS_URL}/demo.js"></script>
-    <script src="{$Think.const.JS_URL}/data.js"></script>
-    <script src="{$Think.const.JS_URL}/fix.js"></script>
+    <script src="<?php echo (JS_URL); ?>/demo.js"></script>
+    <script src="<?php echo (JS_URL); ?>/data.js"></script>
+    <script src="<?php echo (JS_URL); ?>/fix.js"></script>
     <script>
     window.onload = function(){
-        var NAME = ["{$address}","其余人数","脱单男","脱单女"];
+        var NAME = ["<?php echo ($address); ?>","其余人数","脱单男","脱单女"];
         var VALUE = [{"name":"<?php echo ($address); ?>","value":"<?php echo ($townee_info['townee']); ?>"},
         {"name":"其余人数","value":"<?php echo ($townee_info['other']); ?>"},
         ];
@@ -314,7 +304,7 @@
         charst(NAME,VALUE,TITLE,BILI);
     }
     data_btu1.onclick = function(){
-        var NAME = ["{$address}","其余人数","脱单男","脱单女"];
+        var NAME = ["<?php echo ($address); ?>","其余人数","脱单男","脱单女"];
         var VALUE = [{"name":"<?php echo ($address); ?>","value":"<?php echo ($townee_info['townee']); ?>"},
         {"name":"其余人数","value":"<?php echo ($townee_info['other']); ?>"},
         ];
@@ -328,8 +318,8 @@
         {"name":"女","value":"<?php echo ($scale_major['lady_num']); ?>"},
         ]
         var notalone =[
-        {"name":"脱单男","value":"<?php echo ($scale_major['rem_major_boy']); ?>"},
-        {"name":"脱单女","value":"<?php echo ($scale_major['rem_major_lady']); ?>"},
+        {"name":"脱单男","value":"30"},
+        {"name":"脱单女","value":"70"},
         ]
         charst_sex(singleDog,notalone);
     }
@@ -350,7 +340,7 @@
         charst_subject();
     }
     data_btu5.onclick = function(){
-            var content = "<?php echo ($content); ?>";//学院的文字数据介绍
+            var content = "通信学院的出国升学率为22.3%，灵活就业率为0.48%，待就业率为2.08%，就业率为97.92%";//学院的文字数据介绍
             charst_end(content);
         }
         

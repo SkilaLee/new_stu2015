@@ -230,7 +230,7 @@
             },300)
         })
         eventHandler.addEvent(user_name_c,"blur",function(){
-           if(this.value.match(userTest)!=null&&this.value.match(userTest)[0].length != 8 || this.value.length != 8){
+           if(this.value.match(userTest)!=null&&this.value.match(userTest)[0].length != 10 || this.value.length != 10){
                 if(this.value != ""){
                     this.style.border = "2px solid #FF3030";
                 }else{
@@ -340,7 +340,7 @@
         var newy = null;
         var down = false;
         var over = false;
-        var count = 172/3518;
+        var count = 172/2850;
         var Mx = null;
         var My = null;
         
@@ -364,19 +364,19 @@
             }
             if (left > 0 ) {
                 map.style.left = 0;
-                small_border.style.right = 140.75 + "px";
+                small_border.style.right = 116.6 + "px";
 
             }
             if (top > 0) {
                 map.style.top = 0;
-                small_border.style.bottom = 94.6 + "px";
+                small_border.style.bottom = 99.45 + "px";
             }
-            if (left < -2606 ) {
-                map.style.left = -2606 + "px";
+            if (left < -1938 ) {
+                map.style.left = -1938 + "px";
                 small_border.style.right = 0;
             }
-            if (top < -1765) {
-                map.style.top = -1765 + "px";
+            if (top < -1639) {
+                map.style.top = -1639 + "px";
                 small_border.style.bottom = 0;
             }
          })
@@ -429,19 +429,19 @@
             }
             if (left > 0 ) {
                 map.style.left = 0;
-                small_border.style.right = 140.75 + "px";
+                small_border.style.right = 116.6 + "px";
 
             }
             if (top > 0) {
                 map.style.top = 0;
-                small_border.style.bottom = 94.6 + "px";
+                small_border.style.bottom = 99.45 + "px";
             }
-            if (left < -2606 ) {
-                map.style.left = -2606 + "px";
+            if (left < -1938 ) {
+                map.style.left = -1938 + "px";
                 small_border.style.right = 0;
             }
-            if (top < -1765) {
-                map.style.top = -1765 + "px";
+            if (top < -1639) {
+                map.style.top = -1639 + "px";
                 small_border.style.bottom = 0;
             }
         })  
@@ -466,19 +466,19 @@
             }
             if (left > 0 ) {
                 map.style.left = 0;
-                small_border.style.right = 140.75 + "px";
+                small_border.style.right = 116.6 + "px";
 
             }
             if (top > 0) {
                 map.style.top = 0;
-                small_border.style.bottom = 94.6 + "px";
+                small_border.style.bottom = 99.45 + "px";
             }
-            if (left < -2606 ) {
-                map.style.left = -2606 + "px";
+            if (left < -1938 ) {
+                map.style.left = -1938 + "px";
                 small_border.style.right = 0;
             }
-            if (top < -1765) {
-                map.style.top = -1765 + "px";
+            if (top < -1639) {
+                map.style.top = -1639 + "px";
                 small_border.style.bottom = 0;
             } 
          })
@@ -528,19 +528,19 @@
             }
             if (left > 0 ) {
                 map.style.left = 0;
-                small_border.style.right = 140.75 + "px";
+                small_border.style.right = 116.6 + "px";
 
             }
             if (top > 0) {
                 map.style.top = 0;
-                small_border.style.bottom = 94.6 + "px";
+                small_border.style.bottom = 99.45 + "px";
             }
-            if (left < -2606 ) {
-                map.style.left = -2606 + "px";
+            if (left < -1938 ) {
+                map.style.left = -1938 + "px";
                 small_border.style.right = 0;
             }
-            if (top < -1765) {
-                map.style.top = -1765 + "px";
+            if (top < -1639) {
+                map.style.top = -1639 + "px";
                 small_border.style.bottom = 0;
             }
         })  

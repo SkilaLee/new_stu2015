@@ -32,7 +32,7 @@
 					</div>
 					<div id="behavior_d">
 						<img style="float:left;" src="<?php echo (IMG_URL); ?>/behavior.png">
-						<div>
+						<div id="post_behavior">
 							<a href=""></a>
 							<a href=""></a>
 							<a href=""></a>
@@ -71,19 +71,19 @@
 						<a href="map.html">重邮地图</a>
 					</li>
 					<li>
-						<a href="data.html">数据展示</a>
+						<a href="data.html">大数据</a>
 					</li>
 					<li>
 						<a href="page.html">重邮百科</a>
 					</li>
 					<li>
-						<a href="windcolor.html">邮子风采</a>
+						<a href="windcolor.html">重邮风采</a>
 					</li>
 					<li>
 						<a href="">大声HI</a>
 					</li>
 					<li class="last">
-						<a href="http://hongyan.cqupt.edu.cn/aboutus/">关于我们</a>
+						<a href="">关于我们</a>
 					</li>
 					<li id="login1">
 						<a>新生登录</a>
@@ -105,19 +105,19 @@
 						<a href="map.html">重邮地图</a>
 					</li>
 					<li>
-						<a href="data.html">数据展示</a>
+						<a href="data.html">大数据</a>
 					</li>
 					<li>
 						<a href="page.html">重邮百科</a>
 					</li>
 					<li>
-						<a href="windcolor.html">邮子风采</a>
+						<a href="windcolor.html">重邮风采</a>
 					</li>
 					<li>
 						<a href="">大声HI</a>
 					</li>
 					<li class="last">
-						<a href="http://hongyan.cqupt.edu.cn/aboutus/">关于我们</a>
+						<a href="">关于我们</a>
 					</li>
 					<li id="login2">
 						<a>新生登录</a>
@@ -149,10 +149,9 @@
 				<img src="<?php echo (IMG_URL); ?>/maptitle.png" alt="" class="maptitle">
 				<div class = "mapstatic">
 					<div id="D2map">
-						<p>过头了哦~<br>恭喜你获得<br>拖地图狂魔称号</p>
 						<img src="<?php echo (IMG_URL); ?>/map.jpg" id="map">
 						<div id="map-face"></div>
-						<div id="smallmap"><img src="<?php echo (IMG_URL); ?>/smallmap.jpg"></div>
+						<div id="smallmap"><img src="<?php echo (IMG_URL); ?>/smallmap.png"></div>
 						<div id="smallmap-face"></div>
 						<div id="smallmap-border"></div>
 					</div>

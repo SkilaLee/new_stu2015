@@ -1,5 +1,4 @@
 
-
 	function bind(fn,context,ag){
 		return function(){
 			fn.call(context,ag)
@@ -425,7 +424,7 @@
                     break;
                 case "laocao":div.children[1].innerHTML = "老操场";
                     break;
-                case "zidonghua":div.children[1].innerHTML = "自动化大楼";
+                case "zidonghua":div.children[1].innerHTML = "数字图书馆";
                     break;
             }
         });
@@ -440,7 +439,8 @@
             d3 = document.getElementById("d3"),
             d4 = document.getElementById("d4"),
             d5 = document.getElementById("d5"),
-            d6 = document.getElementById("d6");
+            d6 = document.getElementById("d6"),
+            shaoma = document.getElementById("shaoma");
         function move(target){
             animation.move(target,{"left":-10},100,function(){
                 animation.move(target,{"left":14},100,function(){
@@ -493,4 +493,11 @@
              animation.stop(this);
              this.style.left = 0;
         });
+        eventHandler.addEvent(shaoma,"mouseover",function(){
+            animation.move(shaoma,{"top":430},100,function(){
+                animation.move(shaoma,{"top":406},100,function(){
+                    animation.move(shaoma,{"top":420},50);
+                })
+            })
+        })
     })();

@@ -33,18 +33,18 @@
 					<div id="behavior_d">
 						<img style="float:left;" src="<?php echo (IMG_URL); ?>/behavior.png">
 						<div id="post_behavior">
-							<a href="">动漫</a>
-							<a href="">极客</a>
-							<a href="">摄影</a>
-							<a href="">吃货</a>
-							<a href="">lol</a>
-							<a href="">篮球</a>
-							<a href="">旅游</a>
-							<a href="">电影</a>
-							<a href="">学霸</a>
-							<a href="">健身</a>
-							<a href="">音乐</a>
-							<a href="">综艺</a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
 						</div>	
 					</div>
 				</form>
@@ -83,7 +83,7 @@
 						<a href="">大声HI</a>
 					</li>
 					<li class="last">
-						<a href="http://hongyan.cqupt.edu.cn/aboutus/">关于我们</a>
+						<a href="">关于我们</a>
 					</li>
 					<li id="login">
 						<a>新生登录</a>

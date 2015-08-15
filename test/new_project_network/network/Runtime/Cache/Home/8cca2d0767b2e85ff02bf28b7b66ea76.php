@@ -87,7 +87,7 @@
                         <a href="">大声HI</a>
                     </li>
                     <li class="last">
-                        <a href="http://hongyan.cqupt.edu.cn/aboutus/">关于我们</a>
+                        <a href="">关于我们</a>
                     </li>
                     <li id="login1">
                         <a>新生登录</a>
@@ -121,7 +121,7 @@
                         <a href="">大声HI</a>
                     </li>
                     <li class="last">
-                        <a href="http://hongyan.cqupt.edu.cn/aboutus/">关于我们</a>
+                        <a href="">关于我们</a>
                     </li>
                     <li id="login2">
                         <a>新生登录</a>
@@ -318,8 +318,8 @@
         {"name":"女","value":"<?php echo ($scale_major['lady_num']); ?>"},
         ]
         var notalone =[
-        {"name":"脱单男","value":"<?php echo ($scale_major['rem_major_boy']); ?>"},
-        {"name":"脱单女","value":"<?php echo ($scale_major['rem_major_lady']); ?>"},
+        {"name":"脱单男","value":"30"},
+        {"name":"脱单女","value":"70"},
         ]
         charst_sex(singleDog,notalone);
     }
@@ -340,7 +340,7 @@
         charst_subject();
     }
     data_btu5.onclick = function(){
-            var content = "<?php echo ($content); ?>";//学院的文字数据介绍
+            var content = "通信学院的出国升学率为22.3%，灵活就业率为0.48%，待就业率为2.08%，就业率为97.92%";//学院的文字数据介绍
             charst_end(content);
         }
         

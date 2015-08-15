@@ -228,7 +228,7 @@
             },300)
         })
         eventHandler.addEvent(user_name_c,"blur",function(){
-           if(this.value.match(userTest)!=null&&this.value.match(userTest)[0].length != 8 || this.value.length != 8){
+           if(this.value.match(userTest)!=null&&this.value.match(userTest)[0].length != 10 || this.value.length != 10){
                 if(this.value != ""){
                     this.style.border = "2px solid #FF3030";
                 }else{

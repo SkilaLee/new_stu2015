@@ -10,16 +10,19 @@ li{
 }
 .header, .timer, .container ,.footer,.big_header{
 	width: 100%;
+    min-width: 960px;
 }
 .header{
 	z-index: 100;
 	background: #ffffff;
 	border-bottom: 1px solid #9de6f1;
+	overflow: hidden;
 }
 #H{
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	overflow: hidden;
 }
 .big_header{
 	height: 60px;r
@@ -271,20 +274,6 @@ li{
 	height: 586px;
 	overflow: hidden;
 }
-
-.mapwrapper p {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	bottom: 0px;
-	right: 0px;
-	font-size: 20px;
-	font-weight: bold;
-	margin: auto;
-	height: 200px;
-	width: 200px;
-	color: red;
-}
 #D3map{
 	display: none;
 	height: 912px;
@@ -293,8 +282,8 @@ li{
 
 #map {
 	position: absolute;
-	left: -1006px;
-	top: -690px;
+	left: -1090px;
+	top: -715px;
 }
 
 #map-face {
@@ -312,16 +301,16 @@ li{
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	width: 190px;
-	height: 126px;
+	width: 172px;
+	height: 135px;
 }
 
 #smallmap-face{
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	width: 190px;
-	height: 126px;
+	width: 172px;
+	height: 135px;
 	background-color: white;
 	opacity: 0.5;
 	filter:alpha(opacity =50);
@@ -331,10 +320,10 @@ li{
 	cursor: crosshair;
 	position: absolute;
 	z-index: 2;
-	right: 85px;
-	bottom: 57.5px;
-	width: 49.25px;
-	height: 31.4px;
+	right: 49px;
+	bottom: 55.5px;
+	width: 55.04px;
+	height: 35.55px;
 	filter:alpha(opacity =10);
 	border: 1px solid #FF6520;
 	background-color: black;

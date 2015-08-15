@@ -32,7 +32,7 @@
                     </div>
                     <div id="behavior_d">
                         <img style="float:left;" src="<?php echo (IMG_URL); ?>/behavior.png">
-                        <div id="post_behavior">
+                        <div>
                             <a href=""></a>
                             <a href=""></a>
                             <a href=""></a>
@@ -83,7 +83,7 @@
                         <a href="">大声HI</a>
                     </li>
                     <li class="last">
-                        <a href="http://hongyan.cqupt.edu.cn/aboutus/">关于我们</a>
+                        <a href="">关于我们</a>
                     </li>
                     <li id="login1">
                         <a>新生登录</a>
@@ -117,7 +117,7 @@
                         <a href="">大声HI</a>
                     </li>
                     <li class="last">
-                        <a href="http://hongyan.cqupt.edu.cn/aboutus/">关于我们</a>
+                        <a href="">关于我们</a>
                     </li>
                     <li id="login2">
                         <a>新生登录</a>
@@ -817,7 +817,6 @@
     </div>
     <script src="<?php echo (JS_URL); ?>/demo.js"></script>
     <script src="<?php echo (JS_URL); ?>/page.js"></script>
-    <script src="<?php echo (JS_URL); ?>/fix.js"></script>
     <script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp&key=d84d6d83e0e51e481e50454ccbe8986b"></script>
 </body>
 </html>
